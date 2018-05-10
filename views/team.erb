@@ -6,15 +6,13 @@
  </head>
  <body>
 
- <% @team.each do |t| %>
-       <h1>Team Name: <%= t %></h1>
-       <h2>Coach: <%= t %></h2>
-       <h2>Point Guard: <%= t %></h2>
-       <h2>Shooting Guard: <%= t %></h2>
-       <h2>Small Forward: <%= t %></h2>
-       <h2>Power Forward: <%= t %></h2>
-       <h2>Center: <%= t %></h2>
-     <% end %>
+    <h1>Team Name: <%= @name %></h1>
+    <h2>Coach: <%= @coach %></h2>
+    <h2>Point Guard: <%= @pg %></h2>
+    <h2>Shooting Guard: <%= @sg %></h2>
+    <h2>Small Forward: <%= @sf %></h2>
+    <h2>Power Forward: <%= @pf %></h2>
+    <h2>Center: <%= @c %></h2>
 
  </body>
 </html>
